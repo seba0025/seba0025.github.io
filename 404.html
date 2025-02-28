@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/404.css"/>
+
+    <title>Parrocchia San Possidonio</title>
+    
+    <script src="https://kit.fontawesome.com/53a8c8d8bf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="home">
+        <div class="container">
+            <h1 class="header-testo text-center text-xxl text-bold">Parrocchia San Possidonio</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="menu text-m0" id="menu">
+                <span class="close-menu" id="close-menu" onclick="toggleMenu()">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+                <ul>
+                    <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+                    <li><a href="index.html#avvisi" onclick="closeMenu()">Avvisi & Eventi</a></li>
+                    <li><a href="index.html#orari" onclick="closeMenu()">Orario celebrazioni</a></li>
+                    <li><a href="index.html#contatti" onclick="closeMenu()">Contatti</a></li>
+                    <li><a href="strutture.html" onclick="closeMenu()">Strutture</a></li>
+                    <li><a href="caritas.html" onclick="closeMenu()">Caritas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="titolo bg-green section">
+        <div class="container">
+            <h2 class="text-l text-bold text-center">Pagina non trovata!</h2>
+        </div>
+    </section>
+    <section class="main-content bg-white section">
+        <div class="container" >
+            <i class="fa-regular fa-face-grin-beam-sweat"></i>
+            <h3 class="text-center text-l">Pagina non trovata!</h3>
+            <h2 class="text-center text-m2">La pagina che stai cercando non si trova a questo indirizzo o non è più disponibile.</h2>
+            <a href="index.html" class="btn btn-green">Torna alla home</a>
+        </div>
+    </section>
+
+    <footer class="footer section bg-gray">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="images/logoTextO.png" alt="logo">
+            </div>
+            <div class="home-arrow">
+                <a href="#home">
+                    <i class="fa-solid fa-angles-up"></i>
+                </a>
+            </div>
+            <div class="footer-diritti">
+                <p class="footer-diritti-testo text-s">
+                    © 2025 Parrocchia di San Possidonio - Tutti i diritti riservati
+                </p>
+            </div>
+            <div class="footer-social">
+                <div>
+                    <a href="https://www.instagram.com/parrocchia_di_sanpossidonio/" target="_blank">
+                        <i class="fab fa-instagram fa-1x"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/p/Parrocchia-di-San-Possidonio-100067585585683" target="_blank">
+                        <i class="fab fa-facebook fa-1x"></i>
+                    </a>
+                </div>
+            </div>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+</html>

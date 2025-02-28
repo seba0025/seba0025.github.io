@@ -1,0 +1,170 @@
+.titolo .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}  
+
+
+.immagini{
+    display: flex;
+    align-items: center;
+}
+
+.come-contenuto{
+    padding-top: 10px;
+}
+
+
+.contatti{
+    padding-bottom: 20px;
+}
+
+.contatti .contatti-contenuto ul li::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f005";
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+.contatti .contatti-contenuto ul li{
+    display: flex;
+    align-items:flex-start;
+    padding: 25px 0px;
+}
+
+.contatti .contatti-item p{
+    margin: 0px;
+}
+
+.prenota .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.strutture li{
+    padding: 20px 0px;
+}
+
+.struttura-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+
+/* Carousel styles */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 700px; /* Set a maximum width */
+    height: auto; /* Set fixed height */
+    aspect-ratio: 16/9; /* Set aspect ratio */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Center the carousel */
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%; /* Set to 100% of container height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    object-position: center; /* Center the image */
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel img.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Navigation buttons */
+.carousel-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.carousel-nav button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.carousel-nav button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-nav .prev {
+    margin-left: 10px;
+}
+
+.carousel-nav .next {
+    margin-right: 10px;
+}
+
+/* Dots indicators */
+.dots {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dot.active {
+    background-color: white;
+    transform: scale(1.2);
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 780px){
+    .prenota .container{
+        grid-template-columns: 1fr;
+    }
+    .struttura-item {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-nav button {
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+    
+    .dot {
+        width: 10px;
+        height: 10px;
+        margin: 0 4px;
+    }
+}
+

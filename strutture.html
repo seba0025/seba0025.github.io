@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/strutture.css"/>
+
+    <title>Parrocchia San Possidonio</title>
+    
+    <script src="https://kit.fontawesome.com/53a8c8d8bf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="home">
+        <div class="container">
+            <h1 class="header-testo text-center text-xxl text-bold">Parrocchia San Possidonio</h1>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="menu text-m0" id="menu">
+                <span class="close-menu" id="close-menu" onclick="toggleMenu()">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+                <ul>
+                    <li><a href="index.html" onclick="closeMenu()">Home</a></li>
+                    <li><a href="index.html#avvisi" onclick="closeMenu()">Avvisi & Eventi</a></li>
+                    <li><a href="index.html#orari" onclick="closeMenu()">Orario celebrazioni</a></li>
+                    <li><a href="index.html#contatti" onclick="closeMenu()">Contatti</a></li>
+                    <li><a href="strutture.html" onclick="closeMenu()">Strutture</a></li>
+                    <li><a href="caritas.html" onclick="closeMenu()">Caritas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="titolo bg-green section">
+        <div class="container">
+            <h2 class="titolo-testo text-l text-bold text-center">Le nostre strutture</h2>
+            <a href="#prenota" class="btn">Come prenotare</a>
+        </div>
+    </section>
+
+    <section class="strutture section bg-white">
+        <div class="container" >
+            <ul>
+                <li>
+                    <div class="struttura-item">
+                        <div class="testo">
+                            <h3 class="text-m2">Villa varini</h3>
+                            <p class="text-m0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="immagini">
+                            <div class="carousel">
+                                <img src="eventi/gg.jpg" alt="Villa Varini vista 1" class="active">
+                                <img src="images/fotoChiesa.jpg" alt="Villa Varini vista 2">
+                                <img src="eventi/gg.jpg" alt="Villa Varini vista 3">
+                                <div class="carousel-nav">
+                                    <button class="prev">&lt;</button>
+                                    <button class="next">&gt;</button>
+                                </div>
+                                <div class="dots">
+                                    <span class="dot active"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="struttura-item">
+                        <div class="testo">
+                            <h3 class="text-m2">Struttura legno</h3>
+                            <p class="text-m0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="immagini">
+                            <div class="carousel">
+                                <img src="eventi/gg.jpg" alt="Struttura legno vista 1" class="active">
+                                <img src="eventi/gg.jpg" alt="Struttura legno vista 2">
+                                <img src="eventi/gg.jpg" alt="Struttura legno vista 3">
+                                <img src="eventi/gg.jpg" alt="Struttura legno vista 3">
+                                <img src="eventi/gg.jpg" alt="Struttura legno vista 3">
+                                <img src="eventi/gg.jpg" alt="Struttura legno vista 3">
+                                <img src="eventi/gg.jpg" alt="Struttura legno vista 3">
+                                <img src="eventi/gg.jpg" alt="Struttura legno vista 3">
+                                <div class="carousel-nav">
+                                    <button class="prev">&lt;</button>
+                                    <button class="next">&gt;</button>
+                                </div>
+                                <div class="dots">
+                                    <span class="dot active"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="struttura-item">
+                        <div class="testo">
+                            <h3 class="text-m2">Oratorio</h3>
+                            <p class="text-m0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="immagini">
+                            <div class="carousel">
+                                <img src="eventi/gg.jpg" alt="Oratorio vista 1" class="active">
+                                <img src="eventi/gg.jpg" alt="Oratorio vista 2">
+                                <img src="eventi/gg.jpg" alt="Oratorio vista 3">
+                                <div class="carousel-nav">
+                                    <button class="prev">&lt;</button>
+                                    <button class="next">&gt;</button>
+                                </div>
+                                <div class="dots">
+                                    <span class="dot active"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="prenota bg-green section" id="prenota">
+        <div class="container">
+            <div class="come">
+                <h2 class="come-titolo text-l text-bold">Come prenotare</h2>
+                <div class="containerSmall come-contenuto">
+                    <p class="text-m1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="text-m1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="text-m1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p class="text-m1">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div>
+                <div class="contatti">
+                    <h2 class="contatti-titolo text-l text-bold">Contatti referente</h2>
+                    <div class="contatti-contenuto containerSmall">
+                        <ul>
+                            <li>
+                                <div class="contatti-item">
+                                    <p class="contatti-tipo text-m2">Remo Zona</p>
+                                    <a href="tel:1234567980" class="text-m1">1234567980</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contatti-item">
+                                    <p class="contatti-tipo text-m2">Qualcuno</p>
+                                    <a href="tel:1234567980" class="text-m1">1234567980</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
+                <div class="moduli">
+                    <h2 class="text-l text-bold">Modulistica</h2>
+                        <a href="moduli/kk.pdf" class="btn text-m1" target="_blank">Modulo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer section bg-gray">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="images/logoTextO.png" alt="logo">
+            </div>
+            <div class="home-arrow">
+                <a href="#home">
+                    <i class="fa-solid fa-angles-up"></i>
+                </a>
+            </div>
+            <div class="footer-diritti">
+                <p class="footer-diritti-testo text-s">
+                    © 2025 Parrocchia di San Possidonio - Tutti i diritti riservati
+                </p>
+            </div>
+            <div class="footer-social">
+                <div>
+                    <a href="https://www.instagram.com/parrocchia_di_sanpossidonio/" target="_blank">
+                        <i class="fab fa-instagram fa-1x"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/p/Parrocchia-di-San-Possidonio-100067585585683" target="_blank">
+                        <i class="fab fa-facebook fa-1x"></i>
+                    </a>
+                </div>
+            </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize all carousels on the page
+            const carousels = document.querySelectorAll('.carousel');
+            
+            carousels.forEach(function(carousel) {
+                const images = carousel.querySelectorAll('img');
+                const dots = carousel.querySelectorAll('.dot');
+                const nextBtn = carousel.querySelector('.next');
+                const prevBtn = carousel.querySelector('.prev');
+                let currentSlide = 0;
+                let interval;
+
+                // Function to show a specific slide
+                function showSlide(index) {
+                    // Remove active class from current slide
+                    images[currentSlide].classList.remove('active');
+                    dots[currentSlide].classList.remove('active');
+                    
+                    // Update current slide index
+                    currentSlide = (index + images.length) % images.length;
+                    
+                    // Add active class to new slide
+                    images[currentSlide].classList.add('active');
+                    dots[currentSlide].classList.add('active');
+                }
+
+                // Next slide function
+                function nextSlide() {
+                    showSlide(currentSlide + 1);
+                }
+
+                // Previous slide function
+                function prevSlide() {
+                    showSlide(currentSlide - 1);
+                }
+
+                // Add event listeners for manual navigation
+                nextBtn.addEventListener('click', function() {
+                    clearInterval(interval); // Reset the timer
+                    nextSlide();
+                    startAutoSlide(); // Restart auto-sliding
+                });
+
+                prevBtn.addEventListener('click', function() {
+                    clearInterval(interval); // Reset the timer
+                    prevSlide();
+                    startAutoSlide(); // Restart auto-sliding
+                });
+
+                // Add click events to dot indicators
+                dots.forEach(function(dot, index) {
+                    dot.addEventListener('click', function() {
+                        clearInterval(interval); // Reset the timer
+                        showSlide(index);
+                        startAutoSlide(); // Restart auto-sliding
+                    });
+                });
+
+                // Start automatic sliding
+                function startAutoSlide() {
+                    // Clear any existing interval first
+                    clearInterval(interval);
+                    interval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
+                }
+
+                // Initialize the auto-slide
+                startAutoSlide();
+            });
+        });
+    </script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
