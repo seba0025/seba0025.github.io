@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
             avvisoElement.className = 'avvisi-item';
             
             avvisoElement.innerHTML = `
-                <a href="avvisi/${avviso.file}" class="btn text-m1" target="_blank">${avviso.titolo}</a>
+                <a href="/avvisi/${avviso.file}" class="btn text-m1" target="_blank">${avviso.titolo}</a>
             `;
             
             avvisiContainer.appendChild(avvisoElement);
@@ -102,12 +102,12 @@ document.addEventListener('DOMContentLoaded', function() {
             eventoElement.className = 'eventi-item';
             
             eventoElement.innerHTML = `
-                <a href=eventi/${evento.titolo}>
+                <a href=/eventi/${evento.titolo}>
                     <div class="eventi-immagine">
                         <div class="eventi-image-placeholder">
                             <span class="loading-text">Caricamento...</span>
                         </div>
-                        <img data-src="eventi/${evento.file}" 
+                        <img data-src="/eventi/${evento.file}" 
                              alt="${evento.titolo}" 
                              class="eventi-immagine-img">
                     </div>
