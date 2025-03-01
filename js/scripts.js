@@ -21,3 +21,19 @@ function closeMenu() {
     closeMenu.style.display = "none";
     html.classList.remove("no-scroll");
 }
+
+function includeHTML() {
+    document.querySelectorAll("[data-include]").forEach(async (el) => {
+        const file = el.getAttribute("data-include");
+        try {
+            const response = await fetch(file);
+            if (!response.ok) throw new Error(`Errore nel caricamento di ${file}`);
+            el.innerHTML = await response.text();
+        } catch (error) {
+            console.error(error);
+            el.innerHTML = "<p>Errore nel caricamento del contenuto.</p>";
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", includeHTML);
