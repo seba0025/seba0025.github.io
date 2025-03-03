@@ -1,6 +1,10 @@
 {
-    "avvisi": [
-    ],
-    "eventi": [
-    ]
+  "avvisi": [
+    {
+      "dataAggiunto": "2025-03-03T23:45:19.899Z",
+      "titolo": "provabbb",
+      "file": "d6-s8Odttobre.pdf"
+    }
+  ],
+  "eventi": []
 }
