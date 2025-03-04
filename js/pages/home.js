@@ -102,12 +102,12 @@ document.addEventListener('DOMContentLoaded', function() {
             eventoElement.className = 'eventi-item';
             
             eventoElement.innerHTML = `
-                <a href=/eventi/${evento.titolo}>
+                <a href=/eventi/${evento.pagina}>
                     <div class="eventi-immagine">
                         <div class="eventi-image-placeholder">
                             <span class="loading-text">Caricamento...</span>
                         </div>
-                        <img data-src="/eventi/images/${evento.file}" 
+                        <img data-src="/eventi/images/${evento.immagine}" 
                              alt="${evento.titolo}" 
                              class="eventi-immagine-img">
                     </div>
