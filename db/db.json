@@ -1,33 +1,6 @@
 {
   "avvisi": [
-    {
-      "dataAggiunto": "2025-03-03T23:45:19.899Z",
-      "titolo": "provabbb",
-      "file": "d6-s8Odttobre.pdf"
-    }
   ],
   "eventi": [
-    {
-      "dataAggiunto": "2025-03-03T23:59:50.188Z",
-      "titolo": "testEvento2",
-      "descrizione": "",
-      "immagine": "comune-di-san-peossidonio-modena-2048x1365_1741046385516.jpg",
-      "immagini_aggiuntive": [
-        "Immagine WhatsApp 2025-03-02 ore 17.18.10_b0789_1741046388832.jpg"
-      ],
-      "data": "2025-03-03T23:59:50.188Z",
-      "pagina": "testevento2.html"
-    },
-    {
-      "dataAggiunto": "2025-03-03T23:47:57.911Z",
-      "titolo": "sagra n1",
-      "descrizione": "",
-      "immagine": "comune-di-san-peossidonio-modena-2048x1365.jpg",
-      "immagini_aggiuntive": [
-        "Immagine WhatsApp 2025-03-02 ore 17.18.10_b0789.jpg"
-      ],
-      "data": "2025-03-03T23:47:57.911Z",
-      "pagina": "sagra-n1.html"
-    }
   ]
 }
