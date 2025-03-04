@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="eventi-image-placeholder">
                             <span class="loading-text">Caricamento...</span>
                         </div>
-                        <img data-src="/eventi/${evento.file}" 
+                        <img data-src="/eventi/images/${evento.file}" 
                              alt="${evento.titolo}" 
                              class="eventi-immagine-img">
                     </div>
