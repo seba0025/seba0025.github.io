@@ -23,6 +23,17 @@
   ],
   "eventi": [
     {
+      "dataAggiunto": "2025-03-14T12:02:25.097Z",
+      "titolo": "fffff",
+      "descrizione": "",
+      "immagine": "orario_1741953741156.jpg",
+      "immagini_aggiuntive": [
+        "orario_1741953743786.jpg"
+      ],
+      "data": "2025-03-14T12:02:25.097Z",
+      "pagina": "fffff.html"
+    },
+    {
       "dataAggiunto": "2025-03-04T00:09:35.700Z",
       "titolo": "test2",
       "descrizione": "",
