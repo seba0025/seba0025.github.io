@@ -1,15 +1,14 @@
 document.querySelectorAll('.share-button').forEach(button => {
     button.addEventListener('click', async () => {
-      const url = button.getAttribute('data-url'); // Prende l'URL dal pulsante
 
       if (navigator.share) {
         try {
-          await navigator.share({
+            await navigator.share({
             title: document.title,
             text: 'Dai un\'occhiata a questo evento!',
-            url: 'evento.html'
-          });
-          console.log('Condiviso con successo:', url);
+            url: window.location.href
+            });
+          console.log('Condiviso con successo');
         } catch (error) {
           console.error('Errore durante la condivisione:', error);
         }
