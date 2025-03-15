@@ -88,6 +88,17 @@
   ],
   "eventi": [
     {
+      "dataAggiunto": "2025-03-15T16:44:04.743Z",
+      "titolo": "dddd",
+      "descrizione": "",
+      "immagine": "orario_1742057040837.jpg",
+      "immagini_aggiuntive": [
+        "orario_1742057042690.jpg"
+      ],
+      "data": "2025-03-15T16:44:04.743Z",
+      "pagina": "sag.html"
+    },
+    {
       "dataAggiunto": "2025-03-15T15:58:48.284Z",
       "titolo": "ddd",
       "descrizione": "",
