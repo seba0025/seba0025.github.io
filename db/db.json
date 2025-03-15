@@ -58,6 +58,17 @@
   ],
   "eventi": [
     {
+      "dataAggiunto": "2025-03-15T15:58:48.284Z",
+      "titolo": "ddd",
+      "descrizione": "",
+      "immagine": "orario_1742054324085.jpg",
+      "immagini_aggiuntive": [
+        "orario_1742054325487.jpg"
+      ],
+      "data": "2025-03-15T15:58:48.284Z",
+      "pagina": "fff.kkkkkk.html"
+    },
+    {
       "dataAggiunto": "2025-03-15T15:49:05.257Z",
       "titolo": "test1",
       "descrizione": "",
