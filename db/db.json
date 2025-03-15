@@ -1,6 +1,11 @@
 {
   "avvisi": [
     {
+      "dataAggiunto": "2025-03-15T16:44:28.100Z",
+      "titolo": "Avvisddddddi dal 15 al 15 marzo",
+      "file": "avv-15.3.2025-15.3.2025.pdf"
+    },
+    {
       "dataAggiunto": "2025-03-15T16:07:52.960Z",
       "titolo": "Avvisi dal 15 al 15 marzo",
       "file": "avv-15.3.2025-15.3.2025.pdf"
@@ -88,6 +93,17 @@
   ],
   "eventi": [
     {
+      "dataAggiunto": "2025-03-15T16:44:04.743Z",
+      "titolo": "dddd",
+      "descrizione": "",
+      "immagine": "orario_1742057040837.jpg",
+      "immagini_aggiuntive": [
+        "orario_1742057042690.jpg"
+      ],
+      "data": "2025-03-15T16:44:04.743Z",
+      "pagina": "sag.html"
+    },
+    {
       "dataAggiunto": "2025-03-15T15:58:48.284Z",
       "titolo": "ddd",
       "descrizione": "",
@@ -109,7 +125,7 @@
     },
     {
       "dataAggiunto": "2025-03-15T15:44:03.632Z",
-      "titolo": "kkkk",
+      "titolo": "kkkkkkk",
       "descrizione": "",
       "immagine": "orario_1742053441517.jpg",
       "immagini_aggiuntive": [],
@@ -140,8 +156,8 @@
     },
     {
       "dataAggiunto": "2025-03-04T00:09:11.566Z",
-      "titolo": "tsddcast1",
-      "descrizione": "dddd",
+      "titolo": "tsdkdcast1",
+      "descrizione": "ddmdmmmdd",
       "immagine": "comune-di-san-peossidonio-modena-2048x1365.jpg",
       "immagini_aggiuntive": [],
       "data": "2025-03-04T00:09:11.566Z",
