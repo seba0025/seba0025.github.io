@@ -1,4 +1,5 @@
-document.querySelectorAll('.share-button').forEach(button => {
+document.addEventListener('DOMContentLoaded', async () => {
+  document.querySelectorAll('.share-button').forEach(button => {
     button.addEventListener('click', async () => {
 
       if (navigator.share) {
@@ -16,4 +17,5 @@ document.querySelectorAll('.share-button').forEach(button => {
         alert('La condivisione non è supportata su questo browser.');
       }
     });
-  });
+  })
+});
