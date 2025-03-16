@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Load data from JSON file
-    fetch('/db/db.json')
+    fetch(`/db/db.json?t=${Date.now()}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
