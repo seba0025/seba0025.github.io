@@ -1,6 +1,11 @@
 {
   "avvisi": [
     {
+      "dataAggiunto": "2025-04-08T22:02:15.258Z",
+      "titolo": "Avvisi dal 8 al 8 aprile",
+      "file": "avv-8.4.2025-8.4.2025.pdf"
+    },
+    {
       "dataAggiunto": "2025-03-15T16:44:28.100Z",
       "titolo": "Avvisddcgvvddddi dal 15 al 15 marzo",
       "file": "avv-15.3.2025-15.3.2025.pdf"
@@ -92,6 +97,33 @@
     }
   ],
   "eventi": [
+    {
+      "dataAggiunto": "2025-05-07T12:07:07.060Z",
+      "titolo": "jjjjjjjjj",
+      "descrizione": "",
+      "immagine": "COVER_1746619614455.png",
+      "immagini_aggiuntive": [],
+      "data": "2025-05-07T12:07:07.060Z",
+      "pagina": ""
+    },
+    {
+      "dataAggiunto": "2025-05-07T12:05:08.787Z",
+      "titolo": "jcjcjcj",
+      "descrizione": "",
+      "immagine": "COVER_1746619495987.png",
+      "immagini_aggiuntive": [],
+      "data": "2025-05-07T12:05:08.787Z",
+      "pagina": ""
+    },
+    {
+      "dataAggiunto": "2025-05-07T12:02:38.382Z",
+      "titolo": "provaNODISP",
+      "descrizione": "",
+      "immagine": "COVER.png",
+      "immagini_aggiuntive": [],
+      "data": "2025-05-07T12:02:38.382Z",
+      "pagina": ""
+    },
     {
       "dataAggiunto": "2025-03-26T19:01:54.446Z",
       "titolo": "noDesription",
